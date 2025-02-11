@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "data_structures/stack",
+    "data_structures/queue",
+    "data_structures/tree/b_plus_tree"
+]
+
+[package]
+name = "algorithms"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stack = { path = "data_structures/stack" }
+queue = { path = "data_structures/queue" }
+b_plus_tree = { path = "data_structures/tree/b_plus_tree" }
